@@ -72,5 +72,6 @@ Throughout this course, I will document the SQL queries and scripts I write. Eac
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/sql-journey.git
+   git clone https://github.com/sonikumari34/SQL_journey.git
+
 
