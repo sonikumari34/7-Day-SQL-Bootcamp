@@ -26,6 +26,7 @@ SHOW TABLES;
 
 -- Describe the structure of the 'employee' table
 DESC employee;
+DROP TABLE employee;
 
 -- Insert multiple records into the 'employee' table
 INSERT INTO employee (FirstName, LastName, Age, Salary, Location)
@@ -76,3 +77,6 @@ WHERE EID = 6;
 
 -- Show all records after deletion
 SELECT * FROM employee;
+COMMIT;
+
+
