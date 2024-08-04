@@ -127,6 +127,10 @@ SELECT * FROM Learner;
 -- Count the number of learners enrolled in the month of January
 SELECT COUNT(*) AS Learner_in_jan FROM Learner WHERE Learner_Enroll_Date LIKE '2024-07-%';
 
+-- Count the number of learners enrolled in the month of july 20
+
+SELECT COUNT(*) AS Learner_in_jan FROM Learner WHERE Learner_Enroll_Date LIKE '2024-07-20%';
+
 -- Update Rahul's year of experience to 2 and company name to 'Amazon'
 UPDATE Learner SET Year_ofExprience = 2, Learner_company = 'Amazon' WHERE Learner_ID = 2;
 
